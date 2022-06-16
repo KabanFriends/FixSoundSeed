@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fixsoundseed",
+  "version": "${version}",
+  "name": "FixSoundSeed",
+  "description": "Fixes MC-253055",
+  "authors": [
+    "KabanFriends"
+  ],
+  "contact": {
+    "sources": "https://github.com/KabanFriends/FixSoundSeed"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/fixsoundseed/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.kabanfriends.fixsoundseed.fabric.FixSoundSeedFabric"
+    ]
+  },
+  "mixins": [
+    "fixsoundseed.mixins.json",
+    "fixsoundseed-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19"
+  }
+}
