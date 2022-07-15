@@ -3,8 +3,7 @@
   "package": "io.github.kabanfriends.fixsoundseed.mixin",
   "compatibilityLevel": "JAVA_16",
   "client": [
-    "SoundManagerMixin",
-    "SoundManagerAccessor"
+    "MultiPackResourceManagerMixin"
   ],
   "mixins": [
   ],

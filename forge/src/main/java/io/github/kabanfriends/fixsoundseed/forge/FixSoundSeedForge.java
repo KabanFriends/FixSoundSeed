@@ -5,7 +5,4 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod(FixSoundSeed.MOD_ID)
 public class FixSoundSeedForge {
-    public FixSoundSeedForge() {
-        FixSoundSeed.init();
-    }
 }
